@@ -1,0 +1,11 @@
+{
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "baseUrl": "./src",
+    "jsx": "react-jsx",
+    "module": "ES6",
+    "target": "ES2021",
+    "moduleResolution": "node"
+  }
+}
