@@ -7,7 +7,7 @@
     "test": "test",
     "build": "webpack --config webpack.config.js",
     "build:server": "webpack --config webpack.server.js",
-    "start": "yarn build && yarn build:server && node server/bundle.js"
+    "start": "nodemon server/bundle.js"
   },
   "author": "kyw0716",
   "license": "ISC",
@@ -24,6 +24,7 @@
     "webpack-node-externals": "^3.0.0"
   },
   "devDependencies": {
+    "nodemon": "^3.0.1",
     "typescript": "^5.2.2",
     "webpack-dev-server": "^4.15.1"
   }

@@ -1,0 +1,5 @@
+{
+  "watch": ["src"],
+  "ext": "ts,tsx",
+  "exec": "yarn build && yarn build:server && node server/bundle.js"
+}
